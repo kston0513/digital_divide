@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*헤더*/
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #07c;
+}
+
+/*로고*/
+#logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+}
+#logo h1{
+    font-family: 'Orbit', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 -1px 0 #222;
+    text-align: center;
+}
+
+/*네비*/
+nav {
+    float: right;
+    width: 900px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+#topMenu {
+    height: 60px;
+}
+#topMenu > li {
+    float: left;
+    position: relative;
+}
+#topMenu > li >a{
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 1px #07c;
+    padding: 20px 60px;
+}
+#topMenu > li > a > span {
+    font-size: 0.5em;
+}
+#topMenu > li > a:hover {
+    color: #000;
+    text-shadow: 0 -1px #07c;
+}
+
+#topMenu > li > ul {
+    display: none;
+    position: absolute;
+    width: 160px;
+    background-color: #fff;
+    left: 0;
+    margin: 0;
+}
+#topMenu > li > ul > li {
+    padding: 10px 10px 10px 30px;
+}
+#topMenu > li > ul > li > a {
+    font-size: 14px;
+    padding: 10px;
+    color: #000;
+}
+#topMenu > li:hover > ul {
+    display: block;
+    z-index: 10;
+}
+#topMenu > li > ul > li > a:hover {
+    color: #f00;
+}
+
+/*웰컴멘트*/
+#welcome {
+    clear: both;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    overflow: hidden;
+}
+#easy h1{
+    font-family: 'Orbit', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #000;
+    text-align: center;
+}
+#easy h3{
+    font-family: 'Orbit', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+
+/*정보*/
+#info {
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: #9bd9a9;
+    overflow: hidden;
+}
+#info h3 {
+    font-family: 'Orbit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #000;
+    text-align: center;
+}
+
+/*컨텐츠*/
+#contents {
+    width: 100%;
+    height: 300px;
+}
+
+/*링크*/
+#links {
+    float: both;
+    width: 100%;
+    height: 100%;
+    background-color: #9bd9a9;
+}
+#links ul {
+    padding: 0;
+    overflow: hidden;
+}
+#links ul li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 10px 0;
+}
+#links ul li a span {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+}
+#quick-icon1 {
+    background-image:url('../icons/kakao-200.png');
+}
+#quick-icon2 {
+    background-image:url('../icons/Camera-200.png');
+}
+#quick-icon3 {
+    background-image:url('../icons/Music-200.png');
+}
+
+#links ul li a h2 {
+    margin-top: 30px;
+    font-weight: 600;
+    color: #000000;
+}
+
+/*푸터*/
+footer {
+    width: 100%;
+    height: 30px;
+}
+#worker {
+    clear: both;
+    margin-top: 15px;
+    text-align: center;
+}
+p {
+    font-size: 14px;
+    color: #6a6a6a;
+}
