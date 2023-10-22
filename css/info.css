@@ -126,6 +126,9 @@ a {
     font-size: 15px;
     color: #6a6a6a;
 }
+a:hover {
+    color: #4a69b7;
+}
 h6   {
     font-size: 15px;
     color: #6a6a6a;
