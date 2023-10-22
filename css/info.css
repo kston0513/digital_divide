@@ -96,109 +96,37 @@ nav {
     color: #f00;
 }
 
-/*웰컴멘트*/
-#welcome {
-    clear: both;
-    width: 100%;
-    height: 300px;
-    background-color: #fff;
-    overflow: hidden;
-}
-#easy h1{
-    font-family: 'Orbit', sans-serif;
-    font-weight: 700;
-    font-size: 70px;
-    color: #000;
+#infomation {
+    font-size: 100%;
     text-align: center;
+    height : auto;
+    min-height: 100%;
+    padding-bottom: 15%;
 }
-#easy h3{
-    font-family: 'Orbit', sans-serif;
-    font-weight: 700;
+h3 {
     font-size: 30px;
-    color: #000;
-    text-align: center;
-}
-
-/*정보*/
-#info {
-    clear: both;
-    width: 100%;
-    height: 60px;
-    background-color: #9bd9a9;
-    overflow: hidden;
-}
-#info h3 {
-    font-family: 'Orbit', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 15px;
-    color: #000;
-    text-align: center;
-}
-
-/*컨텐츠*/
-#contents {
-    width: 100%;
-    height: 300px;
-}
-
-/*링크*/
-#links {
-    float: both;
-    width: 100%;
-    height: 100%;
-    background-color: #9bd9a9;
-}
-#links ul {
-    padding: 0;
-    overflow: hidden;
-}
-#links ul li {
-    float: left;
-    width: 33%;
-    text-align: center;
-    margin: 10px 0;
-}
-#links ul li a span {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-}
-#quick-icon1 {
-    background-image:url('../icons/kakao-200.png');
-}
-#quick-icon2 {
-    background-image:url('../icons/Camera-200.png');
-}
-#quick-icon3 {
-    background-image:url('../icons/Music-200.png');
-}
-
-#links ul li a h2 {
-    margin-top: 30px;
-    font-weight: 600;
-    color: #000000;
-}
-
-/*푸터*/
-footer {
-    width: 100%;
-    height: 30px;
-}
-#worker {
-    clear: both;
-    margin-top: 15px;
-    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 p {
-    font-size: 14px;
+    padding: 10px;
+    font-size: 20px;
     color: #6a6a6a;
 }
 
 
-/* 모바일 화면 대응 */
-@media (max-width:992px) {
-
+/*푸터*/
+footer {
+    height: 15px;
+    text-align: center;
+    position : relative;
+    transform : translateY(-100%);
+}
+a {
+    font-size: 15px;
+    color: #6a6a6a;
+}
+h6   {
+    font-size: 15px;
+    color: #6a6a6a;
 }
