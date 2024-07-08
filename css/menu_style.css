@@ -1,0 +1,153 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+body {
+    font-family: Pretendard;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#layout {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.outter_header {
+    width: 100%;
+    height: 60px;
+    background-color: lightgray;
+}
+
+.inner_header {
+    width: 100%;
+    height: 59px;
+    background-color: white;
+}
+
+.head_menu_btn {
+    float: left;
+    width:  25px;
+    height: 25px;
+    padding: 15px;
+}
+
+.head_logo {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.high_cont {
+    float: right;
+    width:  25px;
+    height: 25px;
+    padding: 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    padding: 10px 20px 30px;
+    background-color: transparent;
+    color: #888;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    position: relative;
+    text-align: left;
+}
+
+.menu-item:hover, .menu-item.selected {
+    color: #000;
+}
+
+.menu-item.selected {
+    color: #000;
+    font-weight: bold;
+}
+
+.submenu {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.submenu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.submenu-item {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative; /* 화살표 위치를 위한 상대적 위치 지정 */
+}
+
+.submenu-item::after {
+    content: '➔'; /* 화살표 문자 추가 */
+    position: absolute;
+    right: 10px; /* 화살표가 오른쪽에 위치하도록 조정 */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; /* 화살표 색상 */
+    font-size: 14px; /* 화살표 크기 */
+}
+
+.submenu-item strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.submenu-item p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.submenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.submenu li:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 600px) {
+    .submenu-item {
+        flex-basis: 100%;
+    }
+}

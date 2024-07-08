@@ -1,0 +1,233 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+body {
+    font-family: Pretendard;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#layout {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.outter_header {
+    width: 100%;
+    height: 60px;
+    background-color: lightgray;
+}
+
+.inner_header {
+    width: 100%;
+    height: 59px;
+    background-color: white;
+}
+
+.head_menu_btn {
+    float: left;
+    width:  25px;
+    height: 25px;
+    padding: 15px;
+}
+
+.head_logo {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.high_cont {
+    float: right;
+    width:  25px;
+    height: 25px;
+    padding: 15px;
+}
+
+.contents {
+    margin: 25px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.introduce {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #000;
+    background-color: skyblue;
+    border-radius: 25px;
+}
+
+.quick_access {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.inner_contents {
+    background-color: rgb(207, 255, 231);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.quick_info {
+    padding-left: 20px;
+    font-size: 15px;
+    color: #000;
+    text-align: left;
+}
+
+.kakao_short, .camera_short, .music_short {
+    padding: 5%;
+    text-decoration: none;
+}
+
+.kakao_short img, .camera_short img, .music_short img {
+    width: 15%;
+    height: 15%;
+    padding-bottom: 30px;
+}
+
+.info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(255, 245, 167);
+    border-radius: 25px;
+}
+
+.info_txt {
+    text-align: left;
+    padding-left: 50px;
+    font-size: 15px;
+    color: #005cb9;
+    font-weight: bold;
+}
+
+.info_txt_2 {
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.info_end {
+    text-align: right;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: 100;
+    color: green;
+}
+
+.contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cont_info {
+    background-color: rgb(255, 188, 225);
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.title {
+    padding-left: 20px;
+    float: left;
+    font-size: 30px;
+    color: rgb(95, 71, 232);
+}
+
+.mail_add {
+    text-align: right;
+    font-size: 20px;
+    color: #000;
+}
+
+.footer {
+    padding: 30px;
+    background-color: rgb(225, 225, 225);
+}
+
+.footer_txt, .footer_txt .github_link {
+    text-decoration: none;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .head_logo {
+        padding-top: 15px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .contents {
+        margin: 15px;
+        padding-top: 70px;
+    }
+
+    .introduce {
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .inner_contents {
+        padding: 15px;
+    }
+
+    .quick_info {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    .kakao_short, .camera_short, .music_short {
+        padding: 1%;
+        text-decoration: none;
+    }
+
+    .kakao_short img, .camera_short img, .music_short img {
+        width: 25%;
+        height: 25%;
+    }
+
+    .info_txt {
+        padding-left: 20px;
+        font-size: 14px;
+    }
+
+    .info_txt_2 {
+        font-size: 28px;
+    }
+
+    .info_end {
+        padding-right: 20px;
+        font-size: 14px;
+    }
+
+    .cont_info {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+        float: none;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .mail_add {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+}
