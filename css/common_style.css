@@ -52,102 +52,10 @@ header {
     padding: 15px;
 }
 
-.contents {
-    margin: 25px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
-
-.introduce {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 30px;
-    color: #000;
-    background-color: skyblue;
-    border-radius: 25px;
-}
-
-.quick_access {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.inner_contents {
-    background-color: rgb(207, 255, 231);
-    padding: 25px;
-    border-radius: 25px;
-}
-
-.quick_info {
-    padding-left: 20px;
-    font-size: 15px;
-    color: #000;
-    text-align: left;
-}
-
-.kakao_short, .camera_short, .music_short {
-    padding: 5%;
-    text-decoration: none;
-}
-
-.kakao_short img, .camera_short img, .music_short img {
-    width: 15%;
-    height: 15%;
-    padding-bottom: 30px;
-}
-
-.info {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: rgb(255, 245, 167);
-    border-radius: 25px;
-}
-
-.info_txt {
-    text-align: left;
-    padding-left: 50px;
-    font-size: 15px;
-    color: #005cb9;
-    font-weight: bold;
-}
-
-.info_txt_2 {
-    font-size: 35px;
-    color: #000;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.info_end {
-    text-align: right;
-    padding-right: 50px;
-    font-size: 15px;
-    font-weight: 100;
-    color: green;
-}
-
-.contact {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.cont_info {
-    background-color: rgb(255, 188, 225);
-    border-radius: 25px;
-    padding: 40px;
-}
-
-.title {
-    padding-left: 20px;
-    float: left;
-    font-size: 30px;
-    color: rgb(95, 71, 232);
-}
-
-.mail_add {
-    text-align: right;
-    font-size: 20px;
-    color: #000;
+#kakaotalk-sharing-btn {
+    display: inline-block;
+    width: 300px;
+    padding-bottom: 50px;
 }
 
 .footer {

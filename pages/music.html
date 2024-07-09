@@ -7,6 +7,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>음악 - 스마트폰 설명서</title>
+
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js"
+        integrity="sha384-TiCUE00h649CAMonG018J2ujOgDKW/kVWlChEuu4jK2vxfAAD0eZxzCKakxg55G4"
+        crossorigin="anonymous"></script>
+    <script>
+        var currentPageUrl = window.location.href;
+        Kakao.init('19a4f7237e06c677467b8dbf87813984');
+    </script>
+    <script src="/Share.js"></script>
 </head>
 
 <body>
@@ -36,27 +45,30 @@
                 <h1>음악 앱 사용하기</h1>
                 <h3>음악 앱을 사용하여 노래를 들어보세요.</h3>
                 <section class="app-guide">
-                    <img src="/images/music/music_0.png" alt="1st_step"/>
+                    <img src="/images/music/music_0.png" alt="1st_step" />
                     <h2>1. 음악 앱 아이콘을 눌러 음악 플레이어를 실행시켜요</h2>
                     <p>사용하는 음악 앱에 따라 아이콘과 내부 모양이 다를 수 있어요.</p>
 
-                    <img src="/images/music/music_1.png" alt="2nd_step"/>
+                    <img src="/images/music/music_1.png" alt="2nd_step" />
                     <h2>2. 돋보기 모양을 눌러 검색 창으로 이동해요</h2>
                     <p></p>
 
-                    <img src="/images/music/music_2.png" alt="3rd_step"/>
+                    <img src="/images/music/music_2.png" alt="3rd_step" />
                     <h2>3. 듣고 싶은 노래의 제목이나 가수를 입력해 검색해요</h2>
                     <p></p>
 
-                    <img src="/images/music/music_3.png" alt="4th_step"/>
+                    <img src="/images/music/music_3.png" alt="4th_step" />
                     <h2>4. 검색된 노래중 원하는걸 선택해 재생해요</h2>
                     <p>앱에 따라서 노래를 재생하기 위해선 결제나 다운로드가 필요할 수 있어요.</p>
 
-                    <img src="/images/music/music_4.png" alt="5th_step"/>
+                    <img src="/images/music/music_4.png" alt="5th_step" />
                     <h2>5. 이제 노래를 감상할 수 있어요</h2>
                     <p>만약 소리가 나지 않는다면, <a href="/pages/notnow.html">볼륨</a>을 키워보세요.</p>
                 </section>
             </div>
+            <a id="kakaotalk-sharing-btn" href="javascript:kakaoShare();">
+                <img src="/icons/share.svg" alt="카카오톡 공유 보내기 버튼" />
+            </a>
         </main>
 
         <footer class="footer">
